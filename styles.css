@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: #1e40af;
+    color: #ffffff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #93c5fd;
+}
+
+.home-section {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 5rem 1rem;
+}
+
+.home-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+}
+
+.home-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-button {
+    background-color: #ffffff;
+    color: #1e40af;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+}
+
+.home-button:hover {
+    background-color: #bfdbfe;
+}
+
+.cover-letter-section {
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+}
+
+.section-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cover-letter-content {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section {
+    padding: 4rem 1rem;
+    background-color: #f3f4f6;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.skill-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-section {
+    padding: 4rem 1rem;
+    background-color: #1e40af;
+    color: #ffffff;
+}
+
+.contact-name {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    margin-bottom: 0.5rem;
+}
+
+.contact-link {
+    color: #ffffff;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #111827;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
